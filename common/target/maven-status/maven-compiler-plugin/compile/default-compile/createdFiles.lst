@@ -1,0 +1,5 @@
+urfumagistracy\backend\UserService.class
+urfumagistracy\backend\User.class
+urfumagistracy\backend\UserRepo.class
+urfumagistracy\backend\UserDetailsImpl.class
+urfumagistracy\backend\JwtCore.class

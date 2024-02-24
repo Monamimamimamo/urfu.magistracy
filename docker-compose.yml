@@ -1,0 +1,31 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: magistracy_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    volumes:
+      - magistracy-data:/var/lib/postgresql/data
+    ports:
+      - "5438:5432"
+
+  auth:
+    image: magistracy_1_11:latest
+    build:
+      context: authorization
+      dockerfile: authorization/Dockerfile
+    ports:
+      - "8000:8000"
+
+  user:
+    image: user_v_1:latest
+    build:
+      context: user
+      dockerfile: user/Dockerfile
+    ports:
+      - "8000:8000"
+
+volumes:
+  magistracy-data:
