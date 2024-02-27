@@ -12,20 +12,20 @@ services:
       - "5438:5432"
 
   auth:
-    image: magistracy_1_11:latest
+    image: auth_v_1_0:latest
     build:
       context: authorization
       dockerfile: authorization/Dockerfile
     ports:
-      - "8000:8000"
+      - "8001:8001"
 
   user:
-    image: user_v_1:latest
+    image: user_v_0_0:latest
     build:
       context: user
       dockerfile: user/Dockerfile
     ports:
-      - "8000:8000"
+      - "8002:8002"
 
 volumes:
   magistracy-data:

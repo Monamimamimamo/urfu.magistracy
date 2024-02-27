@@ -1,5 +1,8 @@
 urfumagistracy\backend\UserService.class
+urfumagistracy\backend\security\JwtCore.class
+urfumagistracy\backend\security\SecurityConfigurator.class
+urfumagistracy\backend\security\TokenFilter.class
+urfumagistracy\backend\security\UserDetailsImpl.class
+urfumagistracy\backend\security\UserRepo.class
 urfumagistracy\backend\User.class
-urfumagistracy\backend\UserRepo.class
-urfumagistracy\backend\UserDetailsImpl.class
-urfumagistracy\backend\JwtCore.class
+urfumagistracy\backend\LoggingAspect.class

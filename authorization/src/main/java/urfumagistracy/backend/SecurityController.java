@@ -11,6 +11,9 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
+import urfumagistracy.backend.security.JwtCore;
+import urfumagistracy.backend.security.UserRepo;
+
 import java.util.HashMap;
 
 @RestController

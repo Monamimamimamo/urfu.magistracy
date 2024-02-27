@@ -5,28 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a653f7f1-b819-4389-bb2f-14dfe702af86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/JwtCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserDetailsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/security/SecurityConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/security/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/main/java/urfumagistracy/backend/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/JwtCore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/UserDetailsImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/UserRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/SecurityConfigurator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/urfumagistracy/backend/TokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/authorization-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/authorization-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/authorization-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/authorization-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/JwtCore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/UserDetailsImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/SecurityConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/SecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/SecurityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/urfumagistracy/backend/TokenFilter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/JwtCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/security/JwtCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/security/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/security/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../common/src/main/java/urfumagistracy/backend/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/classes/urfumagistracy/backend/JwtCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/classes/urfumagistracy/backend/UserDetailsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/classes/urfumagistracy/backend/UserRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/classes/urfumagistracy/backend/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../common/target/classes/urfumagistracy/backend/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../common/target/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +74,24 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2cP8NkpfqS3w5RiDD7DQ462PdOm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BackendApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kiril/Desktop/urfu-magistracy",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kiril/Desktop/urfu-magistracy/common&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="urfumagistracy.backend.BackendApplication" />
@@ -114,5 +130,10 @@
       <workItem from="1708663251565" duration="15000" />
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

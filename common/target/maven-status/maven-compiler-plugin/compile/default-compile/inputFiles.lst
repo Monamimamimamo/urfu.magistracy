@@ -1,5 +1,8 @@
+C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\LoggingAspect.java
 C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\User.java
-C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\UserDetailsImpl.java
+C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\security\JwtCore.java
+C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\security\SecurityConfigurator.java
+C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\security\TokenFilter.java
 C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\UserService.java
-C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\JwtCore.java
-C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\UserRepo.java
+C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\security\UserDetailsImpl.java
+C:\Users\kiril\Desktop\urfu-magistracy\common\src\main\java\urfumagistracy\backend\security\UserRepo.java

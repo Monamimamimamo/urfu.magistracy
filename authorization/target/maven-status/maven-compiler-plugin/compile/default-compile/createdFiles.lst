@@ -1,7 +1,4 @@
 urfumagistracy\backend\SecurityController.class
-urfumagistracy\backend\BackendApplication.class
-urfumagistracy\backend\SecurityConfigurator.class
-urfumagistracy\backend\MainController.class
 urfumagistracy\backend\SigninRequest.class
-urfumagistracy\backend\TokenFilter.class
+urfumagistracy\backend\BackendApplication.class
 urfumagistracy\backend\SignupRequest.class
